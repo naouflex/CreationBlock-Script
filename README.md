@@ -12,11 +12,16 @@ To run this script, you will need the following:
 - `argparse` library installed (`pip install argparse`)
 - `dotenv` library installed (`pip install python-dotenv`)
 
+
+The dependencies can be installed using pip:
+
+pip install -r requirements.txt
+
 ## Usage
 
 To run the script, open a terminal window and navigate to the directory containing the script. Then run the following command:
 
-`python find_contract_block.py <contract_address> [-s <start_block>]`
+`python3 find_contract_block.py <contract_address> [-s <start_block>]`
 
 
 Where `<contract_address>` is the address of the contract you want to search for, and `-s` or `--start_block` (optional) is the block number to start scanning from (default: 0).
